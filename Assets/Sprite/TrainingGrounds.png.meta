@@ -1,11 +1,15 @@
 fileFormatVersion: 2
 guid: 1e3ce47776f4c644dab4b12de2d3bafb
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: TrainingGrounds_0
-    21300002: TrainingGrounds_1
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: TrainingGrounds_0
+  - first:
+      213: 21300002
+    second: TrainingGrounds_1
   externalObjects: {}
-  serializedVersion: 7
+  serializedVersion: 10
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -60,7 +64,7 @@ TextureImporter:
   compressionQualitySet: 0
   textureFormatSet: 0
   platformSettings:
-  - serializedVersion: 2
+  - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -71,7 +75,8 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-  - serializedVersion: 2
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
     buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -82,6 +87,7 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -101,6 +107,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: f870c6d4ea8c33944acdc3e314a36348
+      internalID: 21300000
       vertices: []
       indices: 
       edges: []
@@ -109,10 +116,12 @@ TextureImporter:
     physicsShape: []
     bones: []
     spriteID: 1caac72e493b08643bd143e1bd50fb41
+    internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
+    secondaryTextures: []
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
